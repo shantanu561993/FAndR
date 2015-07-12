@@ -16,8 +16,8 @@ with open('HISTORY.rst') as history_file:
 
 setup(
     name='FindAndReplace',
-    version='0.1.0',
-    description="This project will find text in files and replace the text",
+    version='0.1.1',
+    description="Find And Replace",
     long_description=readme + '\n\n' + history,
     author="Shantanu Khandelwal",
     author_email='shantanu561993@gmail.com',
