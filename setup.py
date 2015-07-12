@@ -14,14 +14,6 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
-requirements = [
-    # TODO: put package requirements here
-]
-
-test_requirements = [
-    # TODO: put package test requirements here
-]
-
 setup(
     name='FAR',
     version='0.1.0',
@@ -33,11 +25,10 @@ setup(
     packages=[
         'FAR',
     ],
-    package_dir={'FAR':
-                 'FAR'},
+    package_dir={'FindAndReplace':
+                 'FindAndReplace'},
     include_package_data=True,
-    install_requires=requirements,
-    license="BSD",
+    license="GPLv3+",
     zip_safe=False,
     keywords='FAR',
     classifiers=[
