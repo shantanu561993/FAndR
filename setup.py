@@ -6,8 +6,8 @@ setup(
   description = 'A find and replace tool  ',
   author = 'Shantanu Khandelwal',
   author_email = 'shantanu561993@gmail.com',
-  url = 'https://github.com/shantanu561993/PyImageOptimiser', # use the URL to the github repo
-  download_url = 'https://github.com/shantanu561993/PyImageOptimiser/tarball/1.0',
+  url = 'https://github.com/shantanu561993/FAndR', # use the URL to the github repo
+  download_url = 'https://github.com/shantanu561993/FAndR/tarball/1.0',
   keywords = ['Find', 'replace', 'Replace','replace text','text','Find and replace','replace tags','tags','Replace text'],
 classifiers=[
         'Development Status :: 2 - Pre-Alpha',
