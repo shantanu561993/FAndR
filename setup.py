@@ -1,37 +1,15 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
-
-
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
-with open('HISTORY.rst') as history_file:
-    history = history_file.read().replace('.. :changelog:', '')
-
+from distutils.core import setup
 setup(
-    name='FindAndReplace',
-    version='0.1.1',
-    description="Find And Replace",
-    long_description=readme + '\n\n' + history,
-    author="Shantanu Khandelwal",
-    author_email='shantanu561993@gmail.com',
-    url='https://github.com/shantanu561993/FAR',
-    packages=[
-        'FindAndReplace',
-    ],
-    package_dir={'FindAndReplace':
-                 'FindAndReplace'},
-    include_package_data=True,
-    license="GPLv3+",
-    zip_safe=False,
-    keywords='Find And Replace',
-    classifiers=[
+  name = 'FindAndReplace',
+  packages = ['FindAndReplace'], 
+  version = '1.0',
+  description = 'A find and replace tool  ',
+  author = 'Shantanu Khandelwal',
+  author_email = 'shantanu561993@gmail.com',
+  url = 'https://github.com/shantanu561993/PyImageOptimiser', # use the URL to the github repo
+  download_url = 'https://github.com/shantanu561993/PyImageOptimiser/tarball/1.0',
+  keywords = ['Find', 'replace', 'Replace','replace text','text','Find and replace','replace tags','tags','Replace text'],
+classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
@@ -43,6 +21,5 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
     ],
-    #test_suite='tests',
-    #tests_require=test_requirements
 )
+
